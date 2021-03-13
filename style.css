@@ -12,7 +12,7 @@ body {
 header {
   background-color: #8d9191;
   height: 110px;
-
+  margin-bottom: 40px;
 }
 
 ol {
@@ -29,6 +29,7 @@ ol li {
   text-align: center;
   flex: 1 1 auto;
   border-left: 2px solid #b5bab6;
+  height: 26px;
 }
 
 ol li:last-child {
@@ -70,4 +71,116 @@ ol li:last-child {
   font-weight: bold;
   text-decoration: none;
   padding-left: 20px;
+}
+
+#logo {
+  width: 160px;
+  height: auto;
+  position: relative;
+  bottom: 40px;
+}
+
+.row {
+  width: 900px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  width: 293px;
+  height: 355px;
+  padding-right: 5px;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.ser3 {
+  background: url("service1.jpg");
+}
+
+.ser2 {
+  background: url("service2.jpg");
+}
+
+.ser1 {
+  background: url("service3.jpg");
+}
+
+.service-desc {
+  color: white;
+  height: 94px;
+  width: 255px;
+  position: relative;
+  top: 248px;
+  font-size: 13px;
+  background-color: #8d9191;
+  opacity: 0.95;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.service-desc h3{
+  font-size: 13px;
+  height: 15px;
+  margin: 0;
+}
+
+.service-desc p{
+  margin-top: 4px;
+  line-height: 1;
+}
+
+.service-desc .read-more {
+  position: relative;
+  bottom: 16px;
+  right: 172px;
+}
+
+.service-desc span {
+  text-decoration: underline;
+}
+
+.sub-section {
+  width: 293px;
+  height: 216px;
+  padding: 0px 24px;
+  border: 1px solid #c2c2c2;
+  border-radius: 0px 20px 0px 0px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 100%);
+}
+
+.sub-section h3 {
+  font-size: 14px;
+}
+
+.more-details {
+  position: relative;
+  top: 10px;
+  right: 160px;
+}
+
+.more-details span {
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.subsec3 > img {
+  float: left;
+  width: 67px;
+}
+
+.subsec3 ul {
+  list-style: none;
+  text-decoration: underline;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 13px;
+  width: 40px;
+}
+
+.subsec3 ul img{
+  position: relative;
+  right: 5px;
 }
