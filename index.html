@@ -19,15 +19,60 @@
 
       <nav class="site-nav">
         <ol>
-          <li><img id="logo" src="logo.png" alt=""></li>
-          <li>בית</li>
-          <li>אודות</li>
-          <li>חטיבות</li>
-          <li>אחריות תאגידית</li>
-          <li>קשרי משקיעים</li>
-          <li>התחנות שלנו</li>
-          <li>קריירה</li>
-          <li>חדשות ומדיה</li>
+          <li><a href=""></a><img id="logo" src="logo.png" alt=""></a></li>
+          <li><a href=""><img src="menu_home_blue.png" /></a></li>
+          <li><a href="">אודות</a>
+          <div class="dropdown-content">
+            <a href="#">אודות</a>
+            <a href="#">הסטוריה</a>
+            <a href="#">חזון וערכים</a>
+            <a href="#">מבנה הקבוצה</a>
+            <a href="#">חברי דירקטוריון</a>
+            <a href="#">הנהלת הקבוצה</a>
+            <a href="#">פרסים והוקרה</a></li>
+          </div>
+          <li><a href="">חטיבות</a>
+          <div class="dropdown-content">
+            <a href="#">חטיבות</a>
+            <a href="#">קמעונאות ומסחר</a>
+            <a href="#">חזון תעשיות ושירותים</a>
+            <a href="#">זיקוק</a>
+          </div></li>
+          <li><a href="">אחריות תאגידית</a>
+          <div class="dropdown-content">
+            <a href="#">אחריות תאגידית</a>
+            <a href="#">הקוד האתי</a>
+            <a href="#">מעורבות חברתית</a>
+            <a href="#">נגישות</a>
+            <a href="#">איכות הסביבה ובטיחות</a>
+            <a href="#">דירוג מעלה</a>
+          </div></li>
+          <li><a href="">קשרי משקיעים</a>
+          <div class="dropdown-content">
+            <a href="#">פרופיל חברה</a>
+            <a href="#">ד"חות כספיים</a>
+            <a href="#">כלים למשקיע</a>
+            <a href="#">נתוני מניה</a>
+            <a href="#">אסיפות כלליות</a>
+          </div></li>
+          <li><a href="">התחנות שלנו</a>
+          <div class="dropdown-content">
+            <a href="#">התחנות שלנו</a>
+            <a href="#">נגישות מתקני פז</a>
+            <a href="#">רשימת תחנות</a>
+            <a href="#">מועדונים</a>
+          </div></li>
+          <li><a href="">קריירה</a>
+          <div class="dropdown-content">
+            <a href="#">לעבוד בפז</a>
+            <a href="#">ניהול תחנת פז</a>
+            <a href="#">קריירה</a>
+          </div></li>
+          <li><a href="">חדשות ומדיה</a>
+          <div class="dropdown-content">
+            <a href="#">פרסומות</a>
+            <a href="#">הודעות לעיתונות</a>
+          </div></li>
         </ol>
       </nav>
     </header>
@@ -40,7 +85,7 @@
           <h3>קמעונאות ומסחר</h3>
           <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
           <div class="read-more">
-            <span>קרא עוד</span>
+            <a href="">קרא עוד</a>
             <img src="read_more_white.png" alt="">
           </div>
         </div>
@@ -51,18 +96,18 @@
           <h3>זיקוק</h3>
           <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...</p>
           <div class="read-more">
-            <span>קרא עוד</span>
+            <a href="">קרא עוד</a>
             <img src="read_more_white.png" alt="">
           </div>
         </div>
       </div>
 
       <div class="service ser3">
-        <div class="service-desc"">
+        <div class="service-desc">
           <h3>תעשיות ושירותים</h3>
           <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...</p>
           <div class="read-more">
-            <span>קרא עוד</span>
+            <a href="">קרא עוד</a>
             <img src="read_more_white.png" alt="">
           </div>
         </div>
@@ -76,17 +121,17 @@
         <hr>
         <img src="sub-sec1.jpg" alt="">
         <div class="more-details">
-          <span>לפרטים נוספים</span>
+          <a href="">לפרטים נוספים</a>
           <img src="read_more_yellow.png" alt="">
         </div>
       </div>
 
       <div class="sub-section">
-        <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+        <h3 id="cng-head">טיפז</h3>
         <hr>
-        <img src="sub-sec1.jpg" alt="">
+        <img id="cng-img" src="km.jpg" alt="">
         <div class="more-details">
-          <span>לפרטים נוספים</span>
+          <a href="">לפרטים נוספים</a>
           <img src="read_more_yellow.png" alt="">
         </div>
       </div>
@@ -97,19 +142,36 @@
         <img src="map.png" alt="">
         <ul>
           <li>
-            <span>צפון</span><img src="read_more_yellow.png" alt="">
+            <a href="">צפון</a><img src="read_more_yellow.png" alt="">
 
           </li>
-          <li><span>מרכז</span><img src="read_more_yellow.png" alt="">
+          <li><a href="">מרכז</a><img src="read_more_yellow.png" alt="">
           </li>
-          <li><span>דרום</span><img src="read_more_yellow.png" alt="">
+          <li><a href="">דרום</a><img src="read_more_yellow.png" alt="">
           </li>
         </ul>
       </div>
 
     </div>
-    <footer>
 
+    <footer>
+      <nav>
+        <ol>
+          <li><a href="">עמוד הבית</a></li>
+          <li><a href="">מחירונים</a></li>
+          <li><a href="">קריירה</a></li>
+          <li><a href="">תנאי שימוש</a></li>
+          <li><a href="">נגישות</a></li>
+          <li><a href="">מפת אתר</a></li>
+          <li><a href="">צור קשר</a></li>
+          <li><a href="">שטחי מסחר</a></li>
+          <li><a href="">הסדר פשרה בתובענה הייצוגית בעניין הסדר פזומט</a></li>
+        </ol>
+      </nav>
     </footer>
+
+  <script src="script.js">
+
+  </script>
   </body>
 </html>
